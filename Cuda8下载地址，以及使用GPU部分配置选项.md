@@ -82,7 +82,7 @@ dl4j目前提供的平台依赖jar包主要有以上三个
 
 # 3 代码配置
 
-##3.1 配置数据类型
+## 3.1 配置数据类型
 ```
 DataTypeUtil.setDTypeForContext(DataBuffer.Type.HALF);
 ```
@@ -97,7 +97,7 @@ enum TypeEx {
 }
 ```
 
-##3.2 配置GPU选项
+## 3.2 配置GPU选项
 If you have several GPUs, but your system is forcing you to use just one, there’s a solution. Just add`CudaEnvironment.getInstance().getConfiguration().allowMultiGPU(true);`as first line of your `main()`method.
 ```
 CudaEnvironment.getInstance().getConfiguration()
@@ -111,7 +111,7 @@ CudaEnvironment.getInstance().getConfiguration()
         .allowCrossDeviceAccess(true);
 ```
 
-##3.3 使用GPU训练模型
+## 3.3 使用GPU训练模型
 ```
 // ParallelWrapper will take care of load balancing between GPUs.
 ParallelWrapper wrapper = new ParallelWrapper.Builder(model)
