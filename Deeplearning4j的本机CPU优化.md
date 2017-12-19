@@ -49,7 +49,7 @@ NativeOpsHolder.getInstance().getDeviceNativeOps().setElementThreshold(16384)
 NativeOpsHolder.getInstance().getDeviceNativeOps().setTADThreshold(64)
 ```
 
-调用`.setElementThreshold()``可以指定一条OpenMP线程处理的数组元素数量。这也就是说，如果您的CPU支持AVX-512，那么您就可以将该项值设定得足够高，以避免生成过多线程，同时改用SIMD。
+调用`.setElementThreshold()`可以指定一条OpenMP线程处理的数组元素数量。这也就是说，如果您的CPU支持AVX-512，那么您就可以将该项值设定得足够高，以避免生成过多线程，同时改用SIMD。
 
 `.setTADThreshold()`也有类似的功能。它可以指定一条OpenMP线程处理的张量（TAD）数量。您可以按照CPU型号（以及CPU缓存容量）来提高或降低该项设定值。
 
