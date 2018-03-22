@@ -1,3 +1,5 @@
+# ND4J读取图片
+
 ## 一、构建加载器
 
 ```
@@ -24,3 +26,7 @@ scaler.transform(image);
 ```
 
 `ImagePreProcessScaler`构造器参数为需要规范化的区间。
+
+---
+更多文档可以查看 https://github.com/sjsdfg/deeplearning4j-issues。
+你的star是我持续分享的动力
