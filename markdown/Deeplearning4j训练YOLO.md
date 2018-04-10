@@ -271,7 +271,7 @@ frame.dispose();
 # 四、代码地址
 代码地址已经放在github上面，自行下载即可： https://github.com/sjsdfg/dl4j-tutorials
 
-在包`styletransfer`下，可以随意运行。
+在包`objectdetection`下，可以随意运行。
 
 
 ---
