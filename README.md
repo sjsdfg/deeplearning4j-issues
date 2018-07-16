@@ -3,6 +3,12 @@
 希望构建一个deeplearning4j问题解决的仓库
 如果大家有发现什么问题，并且在群里面解决了之后。可以书写一个文档让后来学习的人便于查阅学习。
 
+deeplearning4j 教程
+
+视频教程列表：[Deeplearning4j - 入门视频](https://blog.csdn.net/u011669700/article/details/80629357)
+
+哔哩哔哩直达地址：https://space.bilibili.com/327018681/#/
+
 群号： 289058486
 
 # 源码阅读
