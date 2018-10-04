@@ -1,8 +1,8 @@
 # Deeplearning4j - Arbiter 概述
 
-原文地址：https://deeplearning4j.org/docs/latest/arbiter-overview
-翻译者原文地址：http://bewithme.iteye.com/blog/2431677
-群友 @风一样的男子 提供
+- 原文地址：https://deeplearning4j.org/docs/latest/arbiter-overview
+- 翻译者原文地址：http://bewithme.iteye.com/blog/2431677
+- 群友 @风一样的男子 提供
 
 ---
 
